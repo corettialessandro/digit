@@ -6,10 +6,10 @@ LIBS 	=
 ODIR	= source/obj
 SDIR	= source
 
-_DEPS 	= get_digit.h
+_DEPS 	= get_digit.h get_input.h
 DEPS 	= $(patsubst %,$(IDIR)/%,$(_DEPS))
 
-_OBJ 	= get_digit.o main.o
+_OBJ 	= get_digit.o get_input.o main.o
 OBJ 	= $(patsubst %,$(ODIR)/%,$(_OBJ))
 
 EXEC 	= digit
