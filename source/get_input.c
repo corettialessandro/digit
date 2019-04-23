@@ -20,8 +20,6 @@ void GetInput(double * x, int * d){
       }
    } while (((check!=2 || dummy!='\n') && clean_stdin()) || *d == 0);
 
-   if ((*d) > 0) (*d)--;
-
    return;
 }
 

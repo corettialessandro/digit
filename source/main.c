@@ -13,7 +13,6 @@ int main(void){
    GetInput(&x, &d);
    y = GetDigit(x, d);
 
-   if (d > 0) d++;
    printf("The digit number %d of the number %lf is: %d\n", d, x, y);
 
    return 0;

@@ -2,5 +2,11 @@
 
 int GetDigit(double x, int digit) {
 
-   return (int)floor(x/pow(10, digit)) - 10*((int)floor(x/pow(10, digit+1)));
+   int d;
+   double xabs;
+
+   (digit > 0) ? (d = digit-1) : (d = digit);
+   xabs = fabs(x);
+
+   return (int)(floor(xabs/pow(10, d)) - 10*(floor(xabs/pow(10, d+1))));
 }
