@@ -1,0 +1,14 @@
+#Operative system files
+.DS_Store
+
+#Intermediate building files
+source/obj/*
+
+#Executables
+digit
+
+#Input/Output Files
+*.inpt
+*.out
+*.dat
+*.xyz
