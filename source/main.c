@@ -10,12 +10,11 @@ int main(void){
 
    int y; //Result
 
-   int check; //Control variable for scanf() function;
-
    GetInput(&x, &d);
    y = GetDigit(x, d);
 
-   printf("%d\n", y);
+   if (d > 0) d++;
+   printf("The digit number %d of the number %lf is: %d\n", d, x, y);
 
    return 0;
 }
