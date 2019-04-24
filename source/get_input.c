@@ -23,7 +23,7 @@ void GetInput(double * x, int * d){
    return;
 }
 
-int clean_stdin(void){
+static int clean_stdin(void){
 
     while (getchar()!='\n');
 
