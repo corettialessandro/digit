@@ -3,7 +3,10 @@
 
 #include <stdio.h>
 
+// Public functions
 void GetInput(double * x, int * d);
-int clean_stdin(void);
+
+// Private functions
+static int clean_stdin(void);
 
 #endif /* get_input_h */
